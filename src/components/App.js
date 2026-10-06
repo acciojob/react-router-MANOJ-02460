@@ -1,12 +1,15 @@
 
 import React from "react";
 import './../styles/App.css';
+import { BrowserRouter } from "react-router-dom";
+import Navigation from "./Navigation";
 
 const App = () => {
   return (
-    <div>
-        {/* Do not remove the main div */}
-    </div>
+    <BrowserRouter>
+          
+          <Navigation/>
+    </BrowserRouter>
   )
 }
 
